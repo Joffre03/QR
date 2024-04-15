@@ -1,0 +1,12 @@
+body{
+    background-color: cornsilk;
+    background: radial-gradient(circle, white)100%;
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+
+datalist:hover{
+    background-color: black;
+}
