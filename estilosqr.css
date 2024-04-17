@@ -1,12 +1,24 @@
 body{
-    background-color: cornsilk;
-    background: radial-gradient(circle, white)100%;
+    background: rgb(212,240,255);
+background: radial-gradient(circle, rgba(212,240,255,1) 0%, rgba(240,239,251,1) 100%);
+    
 }
 
 button:hover{
     background-color: aliceblue;
 }
 
-datalist:hover{
-    background-color: black;
+.qrcontainer{
+    max-width: 350px;
+    margin: 10px auto;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    text-align: right;
+    color: gray;
+    cursor: pointer;
+    
 }
